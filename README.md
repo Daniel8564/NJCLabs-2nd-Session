@@ -16,6 +16,7 @@ A web server processes incoming network request over HTTP and several other rela
 The presentation layer/tier is the front end layer in the 3-tier system and consists of the user interface. The user interface is usually a graphical syntax accessible through a web browser and which displays content and information useful for end user/client.
 
 4.	They say this architecture is secure, how is it done in your opinion?
+
 Secure architecture means that in each layer of 3-tier system, the firewall is implemented to secure the database. i.e. SSL certificate on the server to ensure the traffic is secure, or having a firewall set up between the server and client, or have a separate SQL DB Server.
 
 5.	What is a Database Server in a client server environment?
